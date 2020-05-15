@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class IDScannerItem implements Listener {
 
 
-    final static private String ID_SCANNER_NAME = ChatColor.GOLD + "ID Checker";
+    final static private String ID_SCANNER_NAME = ChatColor.GOLD + "ID Scanner";
     final static private String SCANNER_LORE_P1 = ChatColor.GOLD + "Reveals a players identity.";
     final static private String SCANNER_LORE_P2 = ChatColor.ITALIC + "Papers Please.";
     final static private String PLAYER_IMMUNE = ChatColor.AQUA + "This is: " + ChatColor.MAGIC + "moon2LOLE";
