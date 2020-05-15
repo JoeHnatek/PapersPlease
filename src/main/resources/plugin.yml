@@ -1,0 +1,18 @@
+name: PapersPlease
+version: ${project.version}
+main: io.github.jmh07.papersplease.PapersPlease
+api-version: 1.13
+commands:
+  papersplease:
+    usage: /papersplease - Gives player the ID Scanner item.
+    permission: papersplease.give
+    description: Adds a ID Scanner item to the players inventory.
+
+permissions:
+  papersplease.give:
+    description: Allows a player to use the command to spawn a ID Scanner
+    default: op
+
+  papersplease.immune:
+    description: If the item is used on a player with this perm, they cannot give their info
+    default: op
